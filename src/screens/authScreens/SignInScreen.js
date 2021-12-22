@@ -8,7 +8,7 @@ import * as Animatable from 'react-native-animatable';
 import {Icon, Button, SocialIcon} from 'react-native-elements';
 import Header from '../../components/Header';
 
-export default function SignInScreen() {
+export default function SignInScreen({navigation}) {
   const [textInput2Focussed, setTextInput2Focussed] = useState(false);
 
   const textInput1 = useRef(1);
@@ -16,7 +16,7 @@ export default function SignInScreen() {
 
   return (
     <View style={styles.container}>
-      <Header title="MY ACCOUNT" type="arrow-left" />
+      <Header title="MY ACCOUNT" type="arrow-left" navigation={navigation} />
       <View>
         <Text style={title}>Sign-In</Text>
       </View>
