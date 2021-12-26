@@ -1,37 +1,27 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import SignInWelcomeScreen from '../screens/authScreens/SignInWelcomeScreen';
 import SignInScreen from '../screens/authScreens/SignInScreen';
-import HomeScreen from '../screens/HomeScreen';
+import RestaurantsMapScreen from '../screens/RestaurantsMapScreen';
+import DrawerNavigator from './DrawerNavigator';
 
 const Auth = createNativeStackNavigator();
 
 export default function AuthStack() {
   return (
-    <Auth.Navigator>
-      <Auth.Screen
-        name="SignInWelcomeScreen"
-        component={SignInWelcomeScreen}
-        options={{
-          headerShown: false,
-        }}
-      />
+    <Auth.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}>
+      <Auth.Screen name="SignInWelcomeScreen" component={SignInWelcomeScreen} />
+
+      <Auth.Screen name="SignInScreen" component={SignInScreen} />
+
+      <Auth.Screen name="DrawerNavigator" component={DrawerNavigator} />
 
       <Auth.Screen
-        name="SignInScreen"
-        component={SignInScreen}
-        options={{
-          headerShown: false,
-        }}
-      />
-
-      <Auth.Screen
-        name="HomeScreen"
-        component={HomeScreen}
-        options={{
-          headerShown: false,
-        }}
+        name="RestaurantsMapScreen"
+        component={RestaurantsMapScreen}
       />
     </Auth.Navigator>
   );

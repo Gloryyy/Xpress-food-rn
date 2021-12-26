@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable react-native/no-inline-styles */
 import React, {useState, useRef} from 'react';
 import {View, Text, StyleSheet, Dimensions, TextInput} from 'react-native';
 import {colors, parameters, title} from '../../global/styles';
@@ -72,7 +70,7 @@ export default function SignInScreen({navigation}) {
           buttonStyle={parameters.styledButton}
           titleStyle={parameters.buttonTitle}
           onPress={() => {
-            navigation.navigate('HomeScreen');
+            navigation.navigate('DrawerNavigator'); //RootClientTabs
           }}
         />
       </View>
