@@ -36,6 +36,69 @@ export const filterData = [
   },
 ];
 
+export const filterData2 = [
+  {
+    name: 'Fast food',
+    image:
+      'https://embed.widencdn.net/img/worldkitchen/lix24mtmcq/256x256px/1057399_CO_Tabletop_Silo-Scale_Square_Winter-Frost-White_Salad-Plate_2.jpg',
+    id: '0',
+  },
+  {
+    name: 'Burgers',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQCX4UfFE0QSFCIwjv_2CjFawV8CfoZfEjXh-2QGIH9G3b0zPKqe51Y1FXXZqzNWhKDY&usqp=CAU',
+    id: '1',
+  },
+  {
+    name: 'Salads',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfm4QLdDUrhujvRpUfTDMu6aVIsY9lRmc7Q&usqp=CAU',
+    id: '2',
+  },
+  {
+    name: 'Hotdog',
+    image:
+      'https://embed.widencdn.net/img/worldkitchen/lix24mtmcq/256x256px/1057399_CO_Tabletop_Silo-Scale_Square_Winter-Frost-White_Salad-Plate_2.jpg',
+    id: '3',
+  },
+  {
+    name: 'Chinese',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQCX4UfFE0QSFCIwjv_2CjFawV8CfoZfEjXh-2QGIH9G3b0zPKqe51Y1FXXZqzNWhKDY&usqp=CAU',
+    id: '4',
+  },
+  {
+    name: 'Mexican',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfm4QLdDUrhujvRpUfTDMu6aVIsY9lRmc7Q&usqp=CAU',
+    id: '5',
+  },
+  {
+    name: 'Sea food',
+    image:
+      'https://embed.widencdn.net/img/worldkitchen/lix24mtmcq/256x256px/1057399_CO_Tabletop_Silo-Scale_Square_Winter-Frost-White_Salad-Plate_2.jpg',
+    id: '6',
+  },
+  {
+    name: 'Sea food',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQCX4UfFE0QSFCIwjv_2CjFawV8CfoZfEjXh-2QGIH9G3b0zPKqe51Y1FXXZqzNWhKDY&usqp=CAU',
+    id: '7',
+  },
+  {
+    name: 'Sea food',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfm4QLdDUrhujvRpUfTDMu6aVIsY9lRmc7Q&usqp=CAU',
+    id: '8',
+  },
+  {
+    name: 'Sea food',
+    image:
+      'https://embed.widencdn.net/img/worldkitchen/lix24mtmcq/256x256px/1057399_CO_Tabletop_Silo-Scale_Square_Winter-Frost-White_Salad-Plate_2.jpg',
+    id: '9',
+  },
+];
+
 export const restaurantsData = [
   {
     restaurantName: 'Mc Donalds',
@@ -190,5 +253,52 @@ export const restaurantsData = [
       },
     ],
     id: 3,
+  },
+];
+
+export const productData = [
+  {
+    name: 'Hand cut chips',
+    price: 29.3,
+    image:
+      'https://embed.widencdn.net/img/worldkitchen/lix24mtmcq/256x256px/1057399_CO_Tabletop_Silo-Scale_Square_Winter-Frost-White_Salad-Plate_2.jpg',
+    details: 'Two 100% fresh beef burger patties that are hot,deliciously',
+    id: 0,
+  },
+  {
+    name: 'Big Mac',
+    price: 50.8,
+    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png',
+    details: 'McFeast features two 100% fresh beef burger patties that are hot',
+    id: 1,
+  },
+  {
+    name: 'Chicken Burger',
+    price: 70,
+    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png',
+    details: '',
+    id: 2,
+  },
+
+  {
+    name: 'Hand cut chips',
+    price: 29.3,
+    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png',
+    details: 'Two 100% fresh beef burger patties that are hot,deliciously',
+    id: 3,
+  },
+  {
+    name: 'Big Mac',
+    price: 70.2,
+    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png',
+    details: 'McFeast features two 100% fresh beef burger patties that are hot',
+    id: 4,
+  },
+  {
+    name: 'Chicken Burger',
+    price: 70,
+    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/chicken.png',
+    details: '',
+    id: 5,
   },
 ];
