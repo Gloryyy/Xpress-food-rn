@@ -170,10 +170,6 @@ const SignUpScreen = ({navigation}) => {
           )}
         </Formik>
 
-        <View style={styles.view18}>
-          <Text style={styles.text5}>OR</Text>
-        </View>
-
         <View style={styles.view19}>
           <View style={styles.view20}>
             <Text style={styles.text5}>
@@ -327,7 +323,7 @@ const styles = StyleSheet.create({
     marginTop: -3,
   },
 
-  view17: {marginVertical: 10, marginTop: 30},
+  view17: {marginVertical: 10, marginTop: 10},
 
   view18: {
     flex: 1,
